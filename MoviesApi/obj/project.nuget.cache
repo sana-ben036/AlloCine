@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AswZacCKz/RjkfeW33V6jSRpEGJYxor23wwg/Q4J1T/zu8QBGFPKOSZ7gmINzHIwLg1bdG+YI0DBNW33f6RrZg==",
+  "dgSpecHash": "CjL1R/nHGlAh4lLgigaLLb2cEdCdNbGevvSh7+FZYCsDfOmF2b90vvf99YPr8gUVivlrWAHLKmn5doTFc0xFEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\youcode\\source\\repos\\AlloCine\\MoviesAPI\\MoviesApi.csproj",
+  "projectFilePath": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d'edute\\AlloCine\\MoviesApi\\MoviesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\youcode\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
