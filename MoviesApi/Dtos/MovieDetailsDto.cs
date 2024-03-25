@@ -1,8 +1,9 @@
 ﻿namespace MoviesApi.Dtos
 {
-    public class MovieDto
+    public class MovieDetailsDto
     {
-        [MaxLength(250)]
+        public int Id { get; set; }
+
 
         public string Title { get; set; }
 
@@ -10,13 +11,12 @@
 
         public double Rate { get; set; }
 
-        [MaxLength(2500)]
         public string Storyline { get; set; }
 
-        public IFormFile? Poster { get; set; }
+        public byte[] Poster { get; set; }
 
         public byte CategoryId { get; set; }
 
+        public string CategoryName { get; set; }
     }
 }
-
