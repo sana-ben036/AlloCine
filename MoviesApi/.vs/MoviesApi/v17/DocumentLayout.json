@@ -62,8 +62,7 @@
               "RelativeToolTip": "Models\\Event.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:51:21.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:51:21.133Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Dtos\\EventDto.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:48:33.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:48:33.882Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Dtos\\EventDetailsDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:34:29.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:34:29.339Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Controllers\\MoviesController.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAqwJgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T22:21:41.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T22:21:41.036Z"
             },
             {
               "$type": "Document",
@@ -112,7 +108,7 @@
               "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "Controllers\\EventsController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAowH4AAAAbAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwH4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T22:21:17.364Z",
               "EditorCaption": ""

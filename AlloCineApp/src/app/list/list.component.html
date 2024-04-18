@@ -1,0 +1,23 @@
+<div class="row mt-3">
+  <div class="col-3" *ngFor="let item of movies">
+
+    <div [ngClass]="{'card p-1': true ,'hight':item.rate>10 , 'medium':item.rate<10 && item.rate>5, 'low':item.rate<5}">
+
+      <div class="card-image">
+        <img class="w-100" src="{{item.poster}}" alt="">
+      </div>
+  
+      <div class="card-body">
+        <h2> {{item.title}}</h2>
+        <p>{{item.rate}}</p>
+        <p>{{item.year}}</p>
+        <p>{{item.storyline}}</p>
+      </div>
+
+    </div>
+
+    
+  </div>
+
+
+</div>

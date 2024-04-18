@@ -1,0 +1,25 @@
+<div class="row mt-5">
+
+  <div class="col-3">
+    <input [(ngModel)]="movie.Title" type="text" class="form-control  m-1" placeholder="title">
+  </div>
+  <div class="col-3">
+    <input [(ngModel)]="movie.CategoryId" type="text" class="form-control  m-1" placeholder="category">
+  </div>
+  <div class="col-3">
+    <input [(ngModel)]="movie.Rate" type="text" class="form-control  m-1" placeholder="rate">
+  </div>
+  <div class="col-3">
+    <input [(ngModel)]="movie.Year" type="text" class="form-control  m-1" placeholder="year">
+  </div>
+  <div class="col-3">
+    <input [(ngModel)]="movie.Storyline" type="text" class="form-control  m-1" placeholder="storyline">
+  </div>
+  <div class="col-3">
+    <input [(ngModel)]="movie.Poster" type="file" class="form-control  m-1" placeholder="poster">
+  </div>
+  <div class="col-3">
+    <button (click)="ajout()" class="btn form-control text-light">Create</button>
+  </div>
+
+</div>
