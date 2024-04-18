@@ -9,6 +9,7 @@ namespace MoviesApi.Models
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Event> Events { get; set; }
 
     }
 }
