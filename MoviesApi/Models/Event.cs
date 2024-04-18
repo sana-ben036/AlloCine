@@ -15,9 +15,6 @@
 
         public int MovieId { get; set; }
 
-        [MaxLength(250)]
-        public string MovieTitle { get; set; }
-
         public Movie Movie { get; set; }
     }
 }

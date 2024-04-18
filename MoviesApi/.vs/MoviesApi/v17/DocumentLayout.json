@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|c:\\users\\youcode\\desktop\\youcode\\projet fin d\u0027edute\\allocine\\moviesapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|solutionrelative:dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|c:\\users\\youcode\\desktop\\youcode\\projet fin d\u0027edute\\allocine\\moviesapi\\dtos\\eventdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|solutionrelative:dtos\\eventdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|c:\\users\\youcode\\desktop\\youcode\\projet fin d\u0027edute\\allocine\\moviesapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|solutionrelative:dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25E597CE-E196-4A2B-8585-87F34D4C2F9B}|MoviesApi.csproj|c:\\users\\youcode\\desktop\\youcode\\projet fin d\u0027edute\\allocine\\moviesapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,33 +60,33 @@
               "RelativeDocumentMoniker": "Models\\Event.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Models\\Event.cs",
               "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:51:21.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EventDto.cs",
               "DocumentMoniker": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Dtos\\EventDto.cs",
               "RelativeDocumentMoniker": "Dtos\\EventDto.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Dtos\\EventDto.cs",
               "RelativeToolTip": "Dtos\\EventDto.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAoAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:48:33.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EventDetailsDto.cs",
               "DocumentMoniker": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Dtos\\EventDetailsDto.cs",
               "RelativeDocumentMoniker": "Dtos\\EventDetailsDto.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Dtos\\EventDetailsDto.cs",
               "RelativeToolTip": "Dtos\\EventDetailsDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:34:29.339Z",
               "EditorCaption": ""
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAAwJgAAAAMAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwJgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T22:21:41.036Z",
               "EditorCaption": ""
@@ -112,7 +112,7 @@
               "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
               "ToolTip": "C:\\Users\\youcode\\Desktop\\Youcode\\Projet fin d\u0027edute\\AlloCine\\MoviesApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "Controllers\\EventsController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwHQAAAAlAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAowH4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T22:21:17.364Z",
               "EditorCaption": ""

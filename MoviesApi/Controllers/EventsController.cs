@@ -40,7 +40,7 @@ namespace MoviesApi.Controllers
         }
 
         [HttpGet("GetByMovieId")]
-        public async Task<IActionResult> GetByMovieIdAsync(int movieId)
+        public async Task<IActionResult> GetByEventIdAsync(int movieId)
         {
             var events = await _context.Events
                 .Where(e => e.MovieId == movieId)
@@ -77,7 +77,6 @@ namespace MoviesApi.Controllers
             var ev = new Event
             {
                 MovieId = dto.MovieId,
-                MovieTitle = dto.MovieTitle,
                 Cinema = dto.Cinema,
                 City = dto.City,
                 Date = dto.Date,
@@ -113,7 +112,6 @@ namespace MoviesApi.Controllers
             ev.Date = dto.Date;
             ev.Cinema = dto.Cinema;
             ev.City = dto.City;
-            ev.MovieTitle = dto.MovieTitle;
             ev.MovieId = dto.MovieId;
 
             _context.SaveChanges();
@@ -134,7 +132,7 @@ namespace MoviesApi.Controllers
             _context.SaveChanges();
 
 
-            return Ok($"{ev.Date} event is deleted");
+            return Ok($"The event of {ev.City} at {ev.Date} is deleted");
         }
 
 
