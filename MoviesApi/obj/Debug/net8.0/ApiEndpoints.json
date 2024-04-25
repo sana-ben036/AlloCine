@@ -377,5 +377,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.ReservationsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Reservations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.ReservationsController",
+    "Method": "GetByEventIdAsync",
+    "RelativePath": "api/Reservations/GetByStatutId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statutId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

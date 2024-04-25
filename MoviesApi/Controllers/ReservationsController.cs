@@ -39,6 +39,28 @@ namespace MoviesApi.Controllers
             return Ok(reservations);
         }
 
+        [HttpGet("GetByStatutId")]
+        public async Task<IActionResult> GetByEventIdAsync(int statutId)
+        {
+            var reservations = await _context.Reservations
+                .Where(r => r.StatutId == statutId)
+                .OrderByDescending(x => x.Date)
+                .Select(r => new ReservationDetailsDto
+                {
+                    Id = r.Id,
+                    StatutId = r.Statut.Id,
+                    StatutLabel = r.Statut.Label,
+                    Date = r.Date,
+                    EventId = r.Event.Id,
+                    DateEvent = r.Event.Date,
+                    Nb_Ticket = r.Nb_Ticket
+
+                })
+                .ToListAsync();
+
+            return Ok(reservations);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateAsync([FromForm] ReservationDto dto)
         {
@@ -91,6 +113,22 @@ namespace MoviesApi.Controllers
 
             _context.SaveChanges();
             return Ok(res);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            var res = await _context.Reservations.FindAsync(id);
+
+            if (res == null)
+                return NotFound($"No Reservation was found with ID: {id}");
+
+            _context.Remove(res);
+
+            _context.SaveChanges();
+
+
+            return Ok($"The Reservation ID: {id} is deleted");
         }
 
 

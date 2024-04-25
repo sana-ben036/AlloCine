@@ -1,8 +1,11 @@
 import { Component, NgModule } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
 import { AjoutComponent } from './ajout/ajout.component';
 import { ListComponent } from './list/list.component';
 import { HeaderComponent } from './header/header.component';
+import { AsideComponent } from './aside/aside.component';
+import { ContainerComponent } from './container/container.component';
+
 
 
 
@@ -12,9 +15,11 @@ import { HeaderComponent } from './header/header.component';
   standalone: true,
   imports: 
   [
-    RouterOutlet,
+    
     AjoutComponent,
     ListComponent,
+    AsideComponent,
+    ContainerComponent,
     HeaderComponent
     
     
