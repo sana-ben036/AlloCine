@@ -10,6 +10,8 @@ namespace MoviesApi.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Statut> Status { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
 
     }
 }

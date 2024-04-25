@@ -20,10 +20,11 @@ export class SharedService {
   GetAllMovies(){
 
    
-    return this.http.get(this.url + 'api/movies');
-
+    //return this.http.get(this.url + 'api/movies');
+    return fetch(this.url + 'api/movies');
    
   }
+
 
   GetMovie(id : any){
 
@@ -33,12 +34,20 @@ export class SharedService {
    
   }
 
+  /*GetAllCategories(){
+
+   
+    return this.http.get(this.url + 'api/categories');
+
+   
+  }*/
+
   
 
 
-  getImage(imageUrl: string): Observable<Blob> {
+  /*getImage(imageUrl: string): Observable<Blob> {
     return this.http.get(imageUrl, { responseType: 'blob' });
-  }
+  }*/
 
   
   

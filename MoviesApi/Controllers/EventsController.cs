@@ -31,6 +31,7 @@ namespace MoviesApi.Controllers
                     MovieTitle = e.Movie.Title,
                     Cinema = e.Cinema,
                     City = e.City,
+                    Ticket = e.Ticket,
                     Date = e.Date
 
                 })
@@ -53,6 +54,7 @@ namespace MoviesApi.Controllers
                     MovieTitle = e.Movie.Title,
                     City = e.City,
                     Cinema = e.Cinema,
+                    Ticket = e.Ticket,
                     Date = e.Date,
 
                 })
@@ -79,6 +81,7 @@ namespace MoviesApi.Controllers
                 MovieId = dto.MovieId,
                 Cinema = dto.Cinema,
                 City = dto.City,
+                Ticket = dto.Ticket,
                 Date = dto.Date,
 
             };
@@ -112,6 +115,7 @@ namespace MoviesApi.Controllers
             ev.Date = dto.Date;
             ev.Cinema = dto.Cinema;
             ev.City = dto.City;
+            ev.Ticket = dto.Ticket;
             ev.MovieId = dto.MovieId;
 
             _context.SaveChanges();

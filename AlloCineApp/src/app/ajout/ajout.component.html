@@ -1,25 +1,34 @@
-<div class="row mt-5">
+<div class="mt-5">
+  <H3>Movie Form</H3>
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Title</label>
+    <input [(ngModel)]="movie.Title" type="text" class="form-control m-1">
+  </div>
 
-  <div class="col-3">
-    <input [(ngModel)]="movie.Title" type="text" class="form-control  m-1" placeholder="title">
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Category</label>
+    <input [(ngModel)]="movie.CategoryId" type="text" class="form-control  m-1">
   </div>
-  <div class="col-3">
-    <input [(ngModel)]="movie.CategoryId" type="text" class="form-control  m-1" placeholder="category">
+
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Rate</label>
+    <input [(ngModel)]="movie.Rate" type="text" class="form-control  m-1">
   </div>
-  <div class="col-3">
-    <input [(ngModel)]="movie.Rate" type="text" class="form-control  m-1" placeholder="rate">
+
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Storyline</label>
+    <input [(ngModel)]="movie.Storyline" type="text" class="form-control  m-1">
   </div>
-  <div class="col-3">
-    <input [(ngModel)]="movie.Year" type="text" class="form-control  m-1" placeholder="year">
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Year</label>
+    <input [(ngModel)]="movie.Year" type="text" class="form-control  m-1">
   </div>
-  <div class="col-3">
-    <input [(ngModel)]="movie.Storyline" type="text" class="form-control  m-1" placeholder="storyline">
+  <div class="col-4">
+    <label for="exampleFormControlInput1" class="form-label">Poster</label>
+    <input [(ngModel)]="movie.Poster" type="file" class="form-control  m-1">
   </div>
-  <div class="col-3">
-    <input [(ngModel)]="movie.Poster" type="file" class="form-control  m-1" placeholder="poster">
-  </div>
-  <div class="col-3">
-    <button (click)="ajout()" class="btn form-control text-light">Create</button>
+  <div class="col-2">
+    <button (click)="ajout()" class="btn form-control text-light">Add Movie</button>
   </div>
 
 </div>

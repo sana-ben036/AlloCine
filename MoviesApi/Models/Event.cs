@@ -13,6 +13,8 @@
 
         public DateTime Date { get; set; }
 
+        public int Ticket { get; set; }
+
         public int MovieId { get; set; }
 
         public Movie Movie { get; set; }

@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { SharedService } from '../shared.service';
 import { DomSanitizer } from '@angular/platform-browser';
+import { response } from 'express';
 
 
 @Component({
@@ -30,11 +31,7 @@ export class ListComponent implements OnInit{
   
   ngOnInit(): void {
 
-    
-
- 
-
-    this._shared.GetAllMovies()
+    /*this._shared.GetAllMovies()
       .subscribe(
         res=>{
           console.log(res);
@@ -44,7 +41,16 @@ export class ListComponent implements OnInit{
         err=>{
           console.log(err);
         },
-      );
+      );*/
+
+      this._shared.GetAllMovies().then((response)=>{
+
+        response.json().then((_shared)=>{
+          this.movies=_shared;
+        });
+      }).catch((err)=>{
+        console.log(err);
+      });
 
       
 
